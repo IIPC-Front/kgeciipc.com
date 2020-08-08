@@ -1,0 +1,29 @@
+{
+  "name": "iipc",
+  "version": "1.0.0",
+  "description": "main-website",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "http-server": "^0.12.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIPC-Front/website.git"
+  },
+  "author": "Ayush Singh, Mayukh Sen, Prashant Jha, Manish Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIPC-Front/website/issues"
+  },
+  "homepage": "https://github.com/IIPC-Front/website#readme"
+}
