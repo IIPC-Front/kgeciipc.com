@@ -213,9 +213,14 @@ footer .col {
 
 .foot-links li {
     color: #dce6e1;
-    margin-bottom: 10px;
+    font-size: 16px;
+    margin-bottom: 40px;
     list-style-type: square;
     transition: all ease-in 0.4s;
+}
+
+.foot-links li:nth-child(1) {
+    margin-top: 40px;
 }
 
 .follow-icons {
@@ -238,7 +243,12 @@ footer .col {
 
 .contact li {
     list-style: none;
-    text-align: center;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.contact li:nth-child(1) {
+    text-align: left;
 }
 
 .contact li:hover {
@@ -361,8 +371,16 @@ footer .col {
     font-size: 16px;
 }
 
+#notice {
+    height: max-content;
+}
+
+#notice .row {
+    height: 600px;
+}
+
 .notice-box {
-    max-height: 700px;
+    max-height: 500px;
     height: 70%;
     overflow-y: scroll;
     width: 100%;
@@ -431,6 +449,13 @@ footer .col {
              -20px -20px 60px #ffffff;
 }
 
+.activity-text {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+}
+
 /*-------- TEAM ---------*/
 
 #team .row {
@@ -467,4 +492,34 @@ footer .col {
     font-size: 24px;
 }
 
+/*------ TRAINING -------*/
 
+#training {
+    padding-top: 40px;
+    min-height: 100%;
+    height: max-content;
+}
+
+#training .row {
+    padding: 30px;
+    padding-bottom: 0;
+    font-size: 18px;
+    max-width: 1000px;
+    margin-bottom: 60px;
+    height: max-content;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+h5 {
+    font-size: 24px;
+    margin: 40px 0;
+    width: 80%;
+    text-transform: uppercase;
+    color: #279681;
+    border-bottom: 1px solid #2db299;
+}
+
+#activities br {
+    margin: 20px;
+}
