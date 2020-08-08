@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('.loader').delay(400).fadeOut("slow");
 });
 
-var Top = $('.nav').offset().top; 
+var Top = 100; 
 
 $('body').scroll(function() {  
     var currentScroll = $('body').scrollTop();
