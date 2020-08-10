@@ -27,6 +27,11 @@
     .span-1-of-1 p {
         padding: 0 30px;
         margin: 40px 0;
+        word-spacing: 2px;
+    }
+
+    .activity-text {
+        height: 30px;
     }
 
     #notice .row {
@@ -67,8 +72,16 @@
         height: max-content;
     }
 
+    .author {
+        margin-bottom: 30px;
+    }
+
     .hero-text {
         font-size: 24px;
+    }
+
+    .notice-text {
+        text-align: left;
     }
 
     .span-1-of-1 h4 {
