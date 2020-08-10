@@ -1,1 +1,61 @@
 /*----- Media Queries to be added here------*/
+
+@media only screen and (max-width: 768px) {
+    .hero-text {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        max-width: 500px;
+    }
+    .row, footer {
+        display: flex;
+      flex-direction: column;
+    }
+
+    #activities .row .col, #team .row .col {
+        width: 330px;
+        margin: 30px;
+    }
+
+    #objectives .row, #notice .row {
+        width: 80%;
+        max-width: 650px;
+        min-height: 600px;
+        font-size: 16px;
+    }
+    .span-1-of-1 p {
+        padding: 0 30px;
+        margin: 40px 0;
+    }
+
+    #notice .row {
+        height: max-content;
+        max-height: 700px;
+    }
+
+    .notice-box {
+        height: 80%;
+    }
+
+    #training .row p {
+        padding: 30px;
+    }
+    
+    footer .col {
+        margin: 0;
+        width: 100%;
+        display: inline-flex;
+    }
+
+    .foot-links li {
+        margin: 20px;
+    }
+
+    .foot-links li:nth-child(1) {
+        margin: 20px;
+    }
+
+    .contact li {
+        text-align: left;
+    }
+  }
