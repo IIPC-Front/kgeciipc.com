@@ -1,6 +1,118 @@
 /*----- Media Queries to be added here------*/
 
 @media only screen and (max-width: 768px) {
+    header .logo, span:nth-child(3) {
+        display: none;
+    }
+
+    nav {
+        padding: 30px;
+        display: flex;
+        height: 100%;
+        overflow: scroll;
+        align-items: flex-start;
+        justify-content: start;
+        width: 100%;
+        position: fixed;
+        background-color: #ffffff;
+        display: none;
+    }
+
+    .head-nav {
+        top: 0;
+        left: 0;
+        height: 90px;
+        width: 100%;
+        z-index: 999;
+        color: #000;
+        position: fixed;
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        box-shadow:  5px 5px 20px #dbdbdb, 
+        -5px -5px 20px #ffffff;
+    }
+
+    .head-nav .header-text {
+        margin: 0;
+        max-width: 150px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+
+    .head-nav .logo {
+        height: 75px;
+        width: 75px;
+    }
+
+    .menu-close {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        color: #000;
+        box-shadow: none;
+    }
+
+    nav ul {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .top-nav {
+        margin-top: 90px;
+        width: 80%;
+        z-index: 2;
+        padding-bottom: 40px;
+    }
+
+    .menu {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        border-radius: 22px;
+        box-shadow:  5px 5px 20px #dbdbdb, 
+        -5px -5px 20px #ffffff;
+    }
+
+    .sub-menu {
+        width: 80%;
+        display: flex;
+        position: relative;
+        background-color: transparent;
+        box-shadow: none;
+        z-index: 1;
+    }
+
+    .menu a, .submenu a {
+        color: #000;
+    }
+
+    .menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        text-align: center;
+        position: fixed;
+        z-index: 9;
+        background-color: #238371;
+    }
+
+    .start {
+        margin-top: 90px;
+    }
+
+    section:nth-child(1) {
+        margin-top: 90px;
+    }
+
     .hero-text {
         margin-left: auto;
         margin-right: auto;

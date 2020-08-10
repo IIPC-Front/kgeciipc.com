@@ -19,3 +19,11 @@ $('body').scroll(function() {
     }
 
 });
+
+$('.menu-btn').click(function() {
+    $('nav').delay(200).fadeIn("slow")
+});
+
+$('.menu-close').click(function() {
+    $('nav').delay(200).fadeOut("slow");
+});

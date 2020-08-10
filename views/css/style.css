@@ -109,6 +109,25 @@ ion-icon {
     max-width: 1000px;
 }
 
+.menu-btn, .menu-close {
+    display: none;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 32px;
+    top: 22.5px;
+    left: 22.5px;
+    border-radius: 20px;
+    background: #238371;
+    box-shadow:  7px 7px 13px #1e6f60, 
+                -7px -7px 13px #289782;
+    color: #fff;
+}
+
+.menu-btn {
+    position: fixed;
+}
+
 header {
     width: 100%;
     height: 90px;
@@ -141,6 +160,10 @@ nav {
     align-items: center;
     justify-content: center;
     background-color: #303f42;
+}
+
+.head-nav {
+    display: none;
 }
 
 .menu {
