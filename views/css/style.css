@@ -84,6 +84,11 @@ li {
     max-width: 750px;
     width: 100%;
     margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.span-1-of-1 p {
+    margin: 30px auto;
 }
 
 .icon {
