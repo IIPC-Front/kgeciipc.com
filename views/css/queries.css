@@ -241,3 +241,29 @@
 
 }
 
+@media only screen and (max-width: 360px) {
+    body, header, li, li a, span, .row .col, #training .row {
+        font-size: 13px !important;
+    }
+
+    .hero-text, h4, h5 {
+        font-size: 15px !important;
+    }
+
+    .menu-btn {
+        left: 7px;
+    }
+
+    #activities h4, footer h4, .row h4, .flex h4 {
+        letter-spacing: 4px;
+    }
+
+    #activities .row .col, #team .row .col {
+        width: 280px;
+    }
+
+}
+
+@media only screen and (max-height: 768px) {
+    
+}
