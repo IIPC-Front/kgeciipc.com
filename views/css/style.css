@@ -426,6 +426,10 @@ footer .col {
              -5px -5px 20px #ffffff;
 }
 
+.notice-box li:nth-child(1) {
+        margin-top: 20px;
+}
+
 .notice-box li a:hover {
     text-decoration: underline;
 }
