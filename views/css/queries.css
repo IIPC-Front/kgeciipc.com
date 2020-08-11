@@ -105,6 +105,16 @@
         background-color: #238371;
     }
 
+    .gallery {
+        height: max-content;
+        padding: 30px 0;
+    }
+
+    .gallery-cell {
+        width: 90%;
+        height: auto;
+    }
+
     .start {
         margin-top: 90px;
     }
@@ -262,8 +272,4 @@
         width: 280px;
     }
 
-}
-
-@media only screen and (max-height: 768px) {
-    
 }
