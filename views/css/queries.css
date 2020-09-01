@@ -175,6 +175,16 @@
         margin: 30px 0;
     }
 
+    #team .row .col:nth-child(2) {
+        order: 1;
+    }
+    #team .row .col:nth-child(1) {
+        order: 2;
+    }
+    #team .row .col:nth-child(3) {
+        order: 3;
+    }
+
     #training .row p {
         padding: 30px;
     }
